@@ -500,6 +500,7 @@ GameObject:
   - component: {fileID: 483711314}
   - component: {fileID: 483711318}
   - component: {fileID: 483711319}
+  - component: {fileID: 483711320}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -636,6 +637,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereRigidbody: {fileID: 483711318}
+  ballSpeed: 2
+--- !u!114 &483711320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483711313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8b517abbdceca46b0eb7e814d2a9d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnMove:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
